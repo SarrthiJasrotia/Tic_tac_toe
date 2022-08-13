@@ -1,3 +1,5 @@
+/* grid */
+
 .grid-container{
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -12,3 +14,5 @@
 .grid-id div{
     color: aliceblue;
 }
+
+/* buttons */
