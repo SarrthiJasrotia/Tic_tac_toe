@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,29 @@
     <script defer src="./js/script.js"></script>
     <title>Document</title>
 </head>
-<body>
 
-    <h1>Tic-Tac-Toe</h1>
-    <!-- div containers for 3x3 grid-->
-    <div class ="grid-container">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+<body>
+    <div id="theMainBox">
+        <h1>Tic-Tac-Toe</h1>
+        <h1 id="turnTxt">It is __ turn</h1>
+        <div class="grid-container">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <button id="resetBtn" onclick="clearCells()">Reset</button>
     </div>
-    <button id = "resetBtn">reset</button>
-    <P id="turnText"></P>
+
+    <!-- div containers for 3x3 grid-->
+
+    
+    
 </body>
+
 </html>
