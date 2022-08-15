@@ -44,9 +44,3 @@ cells.forEach(function (cell) {
 })
 
 
-//check if the winning combos was true
-cells.forEach(function clearCells(cell){
-    cell.innerHTML = " "
-    
-
-});
